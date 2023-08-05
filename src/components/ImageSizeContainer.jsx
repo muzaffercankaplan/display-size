@@ -27,7 +27,7 @@ const ImageSizeContainer = () => {
               toggleCollapsible(size);
             }}
           >
-            <p className="collapsible-btn-text">iPhone {size} Display </p>
+            <p className="collapsible-btn-text">iPhone {size}" Display </p>
           </div>
           <div id={`content-${size}`}>
             <ScreenShots size={size} />

@@ -6,6 +6,7 @@ import "./styles.css";
 const ScreenShots = ({ size }) => {
   const { screenshots, language, defaultScreenShots } = useMainContext();
   const [warningMessage, setWarningMessage] = useState("");
+
   const imageScreen = useMemo(() => {
     if (screenshots[size]) {
       return screenshots[size];
@@ -27,6 +28,7 @@ const ScreenShots = ({ size }) => {
             setWarningMessage(`Using English ${size}" Display`);
             return defaultScreenShots[size];
           } else {
+            setWarningMessage(`Using English 5.5" Display`);
             return defaultScreenShots[5.5];
           }
         } else {
@@ -46,21 +48,23 @@ const ScreenShots = ({ size }) => {
   }, [size, screenshots, language, defaultScreenShots]);
 
   return (
-    <div className="collapsible-content">
-      {warningMessage && imageScreen && <p> {warningMessage} </p>}
-      <div className="collapsible-content-subcontainer">
-        {imageScreen ? (
-          imageScreen.map((screen, index) => (
-            <img
-              className="collapsible-img"
-              key={index}
-              src={screen}
-              alt={`screen ${index + 1}`}
-            />
-          ))
-        ) : (
-          <p>No screenshots</p>
-        )}
+    <div className={`collapsible-content `}>
+      <div className={`${warningMessage && imageScreen && "warning-screen"}`}>
+        {warningMessage && imageScreen && <p> {warningMessage} </p>}
+        <div className="collapsible-content-subcontainer ">
+          {imageScreen ? (
+            imageScreen.map((screen, index) => (
+              <img
+                className="collapsible-img"
+                key={index}
+                src={screen}
+                alt={`screen ${index + 1}`}
+              />
+            ))
+          ) : (
+            <p>No screenshots</p>
+          )}
+        </div>
       </div>
     </div>
   );
