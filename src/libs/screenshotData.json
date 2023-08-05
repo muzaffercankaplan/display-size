@@ -1,0 +1,89 @@
+{
+  "English": {
+    "6.7": null,
+    "6.5": [
+      "https://picsum.photos/id/1/100/200",
+      "https://picsum.photos/id/11/100/200",
+      "https://picsum.photos/id/21/100/200",
+      "https://picsum.photos/id/31/100/200"
+    ],
+    "6.1": [
+      "https://picsum.photos/id/41/100/200",
+      "https://picsum.photos/id/51/100/200",
+      "https://picsum.photos/id/61/100/200",
+      "https://picsum.photos/id/71/100/200"
+    ],
+    "5.8": [
+      "https://picsum.photos/id/81/100/200",
+      "https://picsum.photos/id/91/100/200",
+      "https://picsum.photos/id/101/100/200",
+      "https://picsum.photos/id/111/100/200"
+    ],
+    "5.5": null,
+    "4.7": null,
+    "4.0": null
+  },
+  "Turkish": {
+    "6.7": null,
+    "6.5": null,
+    "6.1": [
+      "https://picsum.photos/id/121/100/200",
+      "https://picsum.photos/id/131/100/200",
+      "https://picsum.photos/id/141/100/200",
+      "https://picsum.photos/id/151/100/200"
+    ],
+    "5.8": [
+      "https://picsum.photos/id/161/100/200",
+      "https://picsum.photos/id/171/100/200",
+      "https://picsum.photos/id/181/100/200",
+      "https://picsum.photos/id/191/100/200"
+    ],
+    "5.5": [
+      "https://picsum.photos/id/201/100/200",
+      "https://picsum.photos/id/211/100/200",
+      "https://picsum.photos/id/221/100/200",
+      "https://picsum.photos/id/231/100/200"
+    ],
+    "4.7": [
+      "https://picsum.photos/id/241/100/200",
+      "https://picsum.photos/id/251/100/200",
+      "https://picsum.photos/id/261/100/200",
+      "https://picsum.photos/id/271/100/200"
+    ],
+    "4.0": [
+      "https://picsum.photos/id/281/100/200",
+      "https://picsum.photos/id/291/100/200",
+      "https://picsum.photos/id/301/100/200",
+      "https://picsum.photos/id/311/100/200"
+    ]
+  },
+  "German": {
+    "6.7": [
+      "https://picsum.photos/id/321/100/200",
+      "https://picsum.photos/id/331/100/200",
+      "https://picsum.photos/id/341/100/200",
+      "https://picsum.photos/id/351/100/200"
+    ],
+    "6.5": [
+      "https://picsum.photos/id/361/100/200",
+      "https://picsum.photos/id/371/100/200",
+      "https://picsum.photos/id/381/100/200",
+      "https://picsum.photos/id/391/100/200"
+    ],
+    "6.1": [
+      "https://picsum.photos/id/401/100/200",
+      "https://picsum.photos/id/411/100/200",
+      "https://picsum.photos/id/421/100/200",
+      "https://picsum.photos/id/431/100/200"
+    ],
+    "5.8": null,
+    "5.5": [
+      "https://picsum.photos/id/441/100/200",
+      "https://picsum.photos/id/451/100/200",
+      "https://picsum.photos/id/461/100/200",
+      "https://picsum.photos/id/471/100/200"
+    ],
+    "4.7": null,
+    "4.0": null
+  }
+}

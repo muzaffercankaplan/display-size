@@ -1,16 +1,18 @@
 import React from "react";
 import { useMainContext } from "../Context/MainContext";
+import screenshotData from "../libs/screenshotData.json";
 
 import "./styles.css";
 
 const SelectLanguage = () => {
-  const { language, setLanguage } = useMainContext();
+  const { language, setLanguage, setScreenshots } = useMainContext();
 
   const handleChange = (event) => {
     setLanguage(event.target.value);
+    setScreenshots(screenshotData[event.target.value]);
   };
 
-  const languages = ["English", "Turkish", "German"];
+  const languages = Object.keys(screenshotData);
 
   return (
     <div className="select_language_container">
