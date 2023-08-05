@@ -1,0 +1,74 @@
+{
+  "English": {
+    "iPhone 6.7 Display": null,
+    "iPhone 6.5 Display": [
+      "https://picsum.photos/id/1/100/200",
+      "https://picsum.photos/id/2/100/200",
+      "https://picsum.photos/id/3/100/200",
+      "https://picsum.photos/id/4/100/200"
+    ],
+    "iPhone 6.1 Display": [
+      "https://picsum.photos/id/5/100/200",
+      "https://picsum.photos/id/6/100/200",
+      "https://picsum.photos/id/7/100/200",
+      "https://picsum.photos/id/8/100/200"
+    ],
+    "iPhone 5.8 Display": [
+      "https://picsum.photos/id/9/100/200",
+      "https://picsum.photos/id/10/100/200",
+      "https://picsum.photos/id/11/100/200",
+      "https://picsum.photos/id/12/100/200"
+    ],
+    "iPhone 5.5 Display": null,
+    "iPhone 4.7 Display": null,
+    "iPhone 4.0 Display": null
+  },
+  "Turkish": {
+    "iPhone 6.7 Display": null,
+    "iPhone 6.5 Display": null,
+    "iPhone 6.1 Display": null,
+    "iPhone 5.8 Display": null,
+    "iPhone 5.5 Display": [
+      "https://picsum.photos/id/13/100/200",
+      "https://picsum.photos/id/14/100/200",
+      "https://picsum.photos/id/15/100/200",
+      "https://picsum.photos/id/16/100/200"
+    ],
+    "iPhone 4.7 Display": [
+      "https://picsum.photos/id/17/100/200",
+      "https://picsum.photos/id/18/100/200",
+      "https://picsum.photos/id/19/100/200",
+      "https://picsum.photos/id/20/100/200"
+    ],
+    "iPhone 4.0 Display": null
+  },
+  "German": {
+    "iPhone 6.7 Display": [
+      "https://picsum.photos/id/21/100/200",
+      "https://picsum.photos/id/22/100/200",
+      "https://picsum.photos/id/23/100/200",
+      "https://picsum.photos/id/24/100/200"
+    ],
+    "iPhone 6.5 Display": [
+      "https://picsum.photos/id/25/100/200",
+      "https://picsum.photos/id/26/100/200",
+      "https://picsum.photos/id/27/100/200",
+      "https://picsum.photos/id/28/100/200"
+    ],
+    "iPhone 6.1 Display": [
+      "https://picsum.photos/id/29/100/200",
+      "https://picsum.photos/id/30/100/200",
+      "https://picsum.photos/id/31/100/200",
+      "https://picsum.photos/id/32/100/200"
+    ],
+    "iPhone 5.8 Display": null,
+    "iPhone 5.5 Display": [
+      "https://picsum.photos/id/33/100/200",
+      "https://picsum.photos/id/34/100/200",
+      "https://picsum.photos/id/35/100/200",
+      "https://picsum.photos/id/36/100/200"
+    ],
+    "iPhone 4.7 Display": null,
+    "iPhone 4.0 Display": null
+  }
+}
